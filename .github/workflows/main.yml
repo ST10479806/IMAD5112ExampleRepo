@@ -17,6 +17,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: create wrapper
+        run: chmod +x ./gradlew 
+        working-directory: MapogosPizzaHut
+        
       - name: Build with Gradle
         run: ./gradlew build
         working-directory: MapogosPizzaHut
