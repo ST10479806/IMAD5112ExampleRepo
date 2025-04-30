@@ -18,4 +18,4 @@ on:
        -name: Build with Gradle 
        run: ./gradlew build
 
-       working-directory: IMAD5112ExampleRepo
+       working-directory: MapogosPizzaHut
